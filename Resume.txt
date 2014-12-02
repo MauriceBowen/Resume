@@ -1,0 +1,83 @@
+Clinton Maurice Bowen II
+*	16235 Devonshire St. Unit 44, Granada Hills, CA 91344-6912
+*	Clinton.Bowen@gmail.com
+*	(818)-687-1941
+
+
+OBJECTIVE
+By means of full-time employment and or by internship to join the team of a com-
+pany, corporation, or government entity, where I can assist in its overall growth,
+by utilizing my mathematical and programming skills. For the right opportunity,
+I am willing to travel and or relocate.
+
+
+EDUCATION
+Associate’s Degree, Transfer Studies
+College of the Canyons, Santa Clarita, CA                               May 2007
+
+Bachelor of Science, Applied Mathematics
+California State University of Northridge, Northridge, CA               May 2010
+
+Graduate Student, Applied Mathematics: Computational Mathematics
+California State University of Northridge, Northridge, CA        July 2010 - Today
+
+
+RESEARCH AND PAPERS
+“Lie Groups, Homogeneous Manifolds, and Complex Projective Spaces”
+by Atour Bean, Clinton Bowen, and Mayra Moran. Partially supported by
+NSF grant DMS-0502258, May 2009.
+	* 9 month research work and presentation performed in collaboration
+	with two other individuals and one advisor. (Note: This project par-
+	tially funded by NSF Grant DMS-0502258.) (May 2009)
+
+Currently Researching the Risch Algorithm for Symbolic Integration.	
+	* Current ongoing research work to develop and contribute code for
+	Risch Algorithm to SAGE and/or MAXIMA open source computer
+	algebra systems. Reading references include Symbolic Integration I-
+	Transcendental Functions, by Manuel Bronstein.
+
+CSUN Senior Engineering Project Contributor
+	* Contributor in developing C++ and C code in computer vision for the
+	University’s Unmanned Vehicle Team. Tasks included improvement
+	of computer algorithms to read English phrases from video and still
+	images.
+
+Participant in the 2010 Mathematical Contest in Modeling (MCM)
+	*Participant in team task using mathematical modeling to present solu-
+	tions to real world problems. Project included successful modeling on
+	serial criminal activity to predict future occurrences.
+
+
+COMPUTING SKILLS
+A portfolio of code is available at http://www.csun.edu/~cmb33595/portfolio.html
+    Python -----> Great
+     Sage -----> Great
+MATLAB & Octave -----> Great
+     PHP -----> Good
+    MySQL -----> Good
+     LATEX -----> Great
+       C -----> Knowledgeable
+     C++ -----> Good
+     SciPy -----> Knowledgeable
+    NumPy -----> Knowledgeable
+  Mathematica -----> Good
+  Renderman -----> Knowledgeable
+    Linux -----> Good
+   OpenCV -----> Good
+
+
+MEMBERSHIPS, HONORS, AND INTERESTS
+-California State University Math Club Club Secretary (2008-2009)
+-Photographers Forum Magazine Finalist in Best College Photography Con-
+test (2009)
+-Boy Scouts of America Eagle Scout and younger scout mentor (Troop 118,
+Chatsworth, CA)
+-Other Hobbies/Interests Ice Hockey, Golf, Photography, Music.
+
+
+SALARY AND COMMISSIONS
+Open and commensurate with occupation.
+
+
+REFERENCES
+Available upon request.
