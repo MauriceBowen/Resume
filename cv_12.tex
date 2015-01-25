@@ -1,0 +1,298 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy CV/Resume
+% XeLaTeX Template
+% Version 1.0 (5/5/2014)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Debarghya Das (http://www.debarghyadas.com)
+% With extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper]{deedy-resume} % Use US Letter paper, change to a4paper for A4 
+\usepackage{fontawesome}
+\usepackage{tikz}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=2pt,red] (char) {#1};}}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\lastupdated % Print the Last Updated text at the top right
+
+\namesection{Clinton}{Bowen}{ % Your name
+\urlstyle{same}\url{https://www.torrho.com} \\ % Your website, LinkedIn profile or other web address
+\href{mailto:clinton.bowen@gmail.com}{Clinton.Bowen@gmail.com} | 818.687.1941 % Your contact information
+}
+
+%----------------------------------------------------------------------------------------
+%	LEFT COLUMN
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+%------------------------------------------------
+% Education
+%------------------------------------------------
+
+\section{Education} 
+
+\subsection{Cal State Northridge}
+
+\descript{Masters in Applied Mathematics}
+\location{Expected May 2015}
+
+\sectionspace % Some whitespace after the section
+
+\descript{BS in Applied Mathematics}
+\location{May 2010}
+
+\sectionspace % Some whitespace after the section
+
+% %------------------------------------------------
+
+% \subsection{La Martiniere for Boys}
+
+% \location{Grad. May 2011 | Kolkata, India}
+
+% \sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Links
+%------------------------------------------------
+
+\section{Links} 
+
+%Github:// \href{https://github.com/deedydas}{\bf deedydas} \\
+\faLinkedinSign: \href{https://www.linkedin.com/pub/clinton-bowen/20/161/91?trk=pub-pbmap}{\bf LinkedIn} \\
+%YouTube:// \href{https://www.youtube.com/user/DeedyDash007}{\bf DeedyDash007} \\
+%Twitter:// \href{https://twitter.com/debarghya_das}{\bf @debarghya\_das} \\
+%Quora:// \href{https://www.quora.com/Debarghya-Das}{\bf Debarghya-Das}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Coursework
+%------------------------------------------------
+
+\section{Software}
+
+\subsection{Languages}
+
+C\\
+C++\\
+C\#\\
+Java\\
+\LaTeX\\
+Matlab\\
+Mathematica\\
+Python\\
+SQL (MySQL, PostgreSQL, SQLite)\\
+
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\subsection{Libraries, APIs, and Frameworks}
+
+.NET\\
+Sage Python\\
+SciPy\\
+RSA BSAFE\\
+Gurobi\\
+CPLEX\\
+Django (and GeoDjango)\\
+PeachFuzz\\
+MiniFuzz\\
+\subsection{Development Operations}
+
+IC-Agile Certified Professional\\
+Secure Development Lifecycle Practitioner\\
+Top Secret SCI Active (No FSP)\\
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Skills
+%------------------------------------------------
+
+\section{Skills}
+
+\subsection{System Engineering}
+
+\location{GPS}
+Subject Matter Expert (SME) on C/A and CNAV
+\sectionspace % Some whitespace after the section
+\subsection{Cryptography + Cyber-Sec}
+\location{Engineering Standards}
+SME on FIPS 140 to 202\textbullet{} Cyber-Security Framework \textbullet{} SME on Special Publications 800 Series \textbullet{} RFCs \textbullet{} CNSSPs \\
+
+\sectionspace % Some whitespace after the section
+
+%----------------------------------------------------------------------------------------
+
+\end{minipage} % The end of the left column
+\hfill
+%
+%----------------------------------------------------------------------------------------
+%	RIGHT COLUMN
+%----------------------------------------------------------------------------------------
+%
+\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+%------------------------------------------------
+% Experience
+%------------------------------------------------
+
+\section{Experience}
+
+\runsubsection{Booz Allen Hamilton Engineering Services, LLC}
+\descript{| Technologist}
+
+\location{June 2010 – Present | El Segundo, CA}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightitemize}
+\item Designed a software architecture for SAASM Mission Planning System (SMPS).
+\item Provided cryptographic analysis for a GPS CNAV project.
+\begin{tightitemize}
+\item Identified feasible solutions
+\item Assisted in drafting a cryptographic protocol and high level overview of key management
+\item Consulted and developed software for prototyping the cryptographic concept
+\end{tightitemize}
+\item Designed and prototyped a cradle to grave management system for NIST compliant cryptographic keys that met NIST SP800-53 SC-12 (1) and (2).
+\item Developed a random number generation test suite in C\#
+\item Built and demonstrated Zigbee 802.15.4 wireless data transfer software in C to potential business partners.
+\item Developed \& tested a Reed-Solomon error correction code library for software defined radio project.
+\item Developed \& tested cryptographic software for a C/C\# based GPS reciever.
+\item Developed \& demonstrated SHA-3 based embedded C software for a PIC24HJ12GP201I Controller
+\item Corrected NIST test vectors for SHA-2 based digital signature algorithms.
+\item Contributed the 'K' in SHAKE for NIST FIPS-202.
+\item Directing weekly technical meetings between a team of software developers and clients for project management.
+\end{tightitemize}
+
+% \sectionspace % Some whitespace after the section
+
+% %------------------------------------------------
+
+% \runsubsection{Google}
+% \descript{| Software Engineering Intern}
+
+% \location{May 2013 – Aug 2013 | Mountain View, CA}
+% \begin{tightitemize}
+% \item Worked on the YouTube Captions team in primarily vanilla Javascript and Python to plan, design and develop the full stack implementation of a new framework to add and edit Automatic Speech Recognition captions.
+% \item Created a backbone.js-like framework for the Captions editor.
+% \item All code was reviewed, perfected, and pushed to production.
+% \end{tightitemize}
+
+% \sectionspace % Some whitespace after the section
+
+% %------------------------------------------------
+
+% \runsubsection{Phabricator}
+% \descript{| Open Source Contributor \& Team Leader}
+
+% \location{Jan 2013 – May 2013 | Palo Alto, CA \& Ithaca, NY}
+% \begin{tightitemize}
+% \item Phabricator is used daily by Facebook, Dropbox, Quora, Asana and more.
+% \item I created the Meme generator, the entire Lipsum application, ported Tokens to different apps, fixed many bugs and more in PHP and Shell.
+% \item Led a team from MIT, Cornell, IC London and UHelsinki for the project.
+% \end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Research
+%------------------------------------------------
+
+\section{Research}
+
+\runsubsection{Lie Groups, Homogeneous Manifolds, and Complex Projective Spaces}
+\descript{| Co-Authored with Mayra Moran and Atour Bean}
+
+\location{May 2009}
+Partially funded by NSF Grant DMS-0502258
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{Message Optimization Over GPS Civil Navigation Signals}
+\descript{| Submitting to ION GNSS+ 2015}
+
+\location{2015}
+In this paper, we pose the problem of maximizing the number of special messages allowed while observing the messaging constraints defined in IS-200 and IS-705 for the GPS signals L2C and L5.  The problem is posed using a graph of feasible message sequencing and then modelling the graphs as linear constraints for a linear programming (LP) problem.
+\sectionspace % Some whitespace after the section
+
+% %------------------------------------------------
+% % Presentations
+% %------------------------------------------------
+
+\section{Presentations} 
+
+\begin{tabular}{rll}
+2014	 & What the Heck is Fuzz-Testing?\\
+2014	 & BlackHat, DEFCON, SHA-3, \& DIAC: The Summer Conferences\\
+2014	 & Configuration Management within Booz Allen Hamilton \\
+& and an Introduction to C\# Phalanx\\
+2014 & Message Optimization over L2C and L5\\
+2013 & Error Correction Codes over Finite Fields \\
+2012 & Mission Planning Optimization \\
+2010 & Reed Solomon Error Correction Codes\\
+\end{tabular}
+
+% \sectionspace % Some whitespace after the section
+
+% %------------------------------------------------
+% % Societies
+% %------------------------------------------------
+
+% \section{Societies} 
+
+% \begin{tabular}{rll}
+% 2014 & top 12\%ile & Tau Beta Pi Engineering Honor Society\\
+% 2014 & National & The Global Leadership and Education Forum (tGELF)\\
+% 2012 & National & Golden Key International Honor Society\\
+% 2012 & National & National Society of Collegiate Scholars\\
+% \end{tabular}
+
+% \sectionspace % Some whitespace after the section
+
+%----------------------------------------------------------------------------------------
+
+\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
+%	SECOND PAGE (EXAMPLE)
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+%\section{Example Section}
+
+%\end{minipage} % The end of the left column
+%\hfill
+%\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+%\section{Example Section 2}
+
+%\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
