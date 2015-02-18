@@ -19,7 +19,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[letterpaper]{deedy-resume} % Use US Letter paper, change to a4paper for A4 
+\documentclass{deedy-resume} % Use US Letter paper, change to a4paper for A4 
 \usepackage{fontawesome}
 \usepackage{tikz}
 \newcommand*\circled[1]{\tikz[baseline=(char.base)]{
@@ -97,10 +97,13 @@ C++\\
 C\#\\
 Java\\
 \LaTeX\\
-Matlab\\
 Mathematica\\
+Matlab\\
 Python\\
 SQL (MySQL, PostgreSQL, SQLite)\\
+%PHP\\
+R\\
+
 
 
 \sectionspace % Some whitespace after the section
@@ -135,7 +138,7 @@ Top Secret SCI Active (No FSP)\\
 \subsection{System Engineering}
 
 \location{GPS}
-Subject Matter Expert (SME) on C/A and CNAV
+Subject Matter Expert (SME) on C/A \textbullet{} SME on CNAV
 \sectionspace % Some whitespace after the section
 \subsection{Cryptography + Cyber-Sec}
 \location{Engineering Standards}
@@ -166,23 +169,33 @@ SME on FIPS 140 to 202\textbullet{} Cyber-Security Framework \textbullet{} SME o
 \location{June 2010 – Present | El Segundo, CA}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightitemize}
-\item Designed a software architecture for SAASM Mission Planning System (SMPS).
-\item Provided cryptographic analysis for a GPS CNAV project.
-\begin{tightitemize}
-\item Identified feasible solutions
-\item Assisted in drafting a cryptographic protocol and high level overview of key management
-\item Consulted and developed software for prototyping the cryptographic concept
-\end{tightitemize}
-\item Designed and prototyped a cradle to grave management system for NIST compliant cryptographic keys that met NIST SP800-53 SC-12 (1) and (2).
-\item Developed a random number generation test suite in C\#
-\item Built and demonstrated Zigbee 802.15.4 wireless data transfer software in C to potential business partners.
-\item Developed \& tested a Reed-Solomon error correction code library for software defined radio project.
-\item Developed \& tested cryptographic software for a C/C\# based GPS receiver.
+\item Designed a SOAP software architecture for GPS SAASM Mission Planning System
+\item Desgined, developed, \& tested a MATLAB Reed-Solomon error correction code library
 \item Developed \& demonstrated SHA-3 based embedded C software for a PIC24HJ12GP201I Controller
-\item Corrected NIST test vectors for SHA-2 based digital signature algorithms.
-\item Contributed the 'K' in SHAKE for NIST FIPS-202.
-\item Directing weekly technical meetings between a team of software developers and clients for project management.
+\item Built and demonstrated Zigbee 802.15.4 wireless data transfer software in C to potential business partners
+\item Designed, developed, \& tested a random number generation test suite in C\#
+\item Developed \& tested cryptographic software for a C/C\# based GPS receiver (ECDSA \& SHA-2)
+\item Designed, developed, \& tested message optimization software for GPS L2C and L5 signals in python
+\item Directing weekly technical meetings between a team of software developers and clients for project management
+% \item Corrected NIST test vectors for SHA-2 based digital signature algorithms.
+% \item Contributed the 'K' in SHAKE for NIST FIPS-202.
+% \item Directing weekly technical meetings between a team of software developers and clients for project management.
+% \item Provided cryptographic analysis for a GPS CNAV project.
+% \begin{tightitemize}
+% \item Identified feasible solutions
+% \item Assisted in drafting a cryptographic protocol and high level overview of key management
+% \item Consulted and developed software for prototyping the cryptographic concept
+% \end{tightitemize}
+% \item Designed and prototyped a cradle to grave management system for NIST compliant cryptographic keys that met NIST SP800-53 SC-12 (1) and (2).
+% \sectionspace
+% \runsubsection{Cal State Northridge}
+% \descript{| Student}
+
+% \location{August 2012 – June 2014 | Northridge, CA}
+% \item Developed reproducing kernel hilbert space interpolation software in python for approximating solutions to stochastic differential equations
+% \item Designed \& developed resource allocation optimization software in python
 \end{tightitemize}
+
 
 % \sectionspace % Some whitespace after the section
 
@@ -244,14 +257,16 @@ In this paper, we pose the problem of maximizing the number of special messages 
 \section{Presentations} 
 
 \begin{tabular}{rll}
+2014     & Permutation and Construction Library: \\
+		 &A Library for Permutation Based Cryptography\\
 2014	 & What the Heck is Fuzz-Testing?\\
 2014	 & BlackHat, DEFCON, SHA-3, \& DIAC: The Summer Conferences\\
 2014	 & Configuration Management within Booz Allen Hamilton \\
-& and an Introduction to C\# Phalanx\\
-2014 & Message Optimization over L2C and L5\\
-2013 & Error Correction Codes over Finite Fields \\
-2012 & Mission Planning Optimization \\
-2010 & Reed Solomon Error Correction Codes\\
+		 & and an Introduction to C\# Phalanx\\
+2014  	 & Message Optimization over L2C and L5\\
+2013 	 & Error Correction Codes over Finite Fields \\
+2012 	 & Mission Planning Optimization \\
+2010 	 & Reed Solomon Error Correction Codes\\
 \end{tabular}
 
 % \sectionspace % Some whitespace after the section
