@@ -1,0 +1,115 @@
+commit 6231bcd6a7bea64f07417a0a603d1af7a2f0c446
+Merge: e807a5d c6ebfb7
+Author: maurice beauxen <mauricebeauxen@gmail.com>
+Date:   Tue Feb 17 22:02:15 2015 -0800
+
+    Merge branch 'Technical'
+
+commit c6ebfb7dbdb3b2c231c7c2d5f0ca22ddd8d10566
+Author: maurice beauxen <mauricebeauxen@gmail.com>
+Date:   Tue Feb 17 22:01:50 2015 -0800
+
+    adding technical lead resume
+
+commit e807a5d5b2499112be250dd61e404c5949f87863
+Merge: cdcac10 9f2e669
+Author: maurice beauxen <mauricebeauxen@gmail.com>
+Date:   Tue Feb 17 21:33:45 2015 -0800
+
+    Merge branch 'python'
+
+commit 9f2e669de3a4844ea1c94ce8541a30aaefb8fff9
+Author: maurice beauxen <mauricebeauxen@gmail.com>
+Date:   Tue Feb 17 21:33:26 2015 -0800
+
+    modified socket
+
+commit d65a98fcc9125b49b43505262a6612fef52d2f60
+Author: maurice beauxen <mauricebeauxen@gmail.com>
+Date:   Tue Feb 17 21:30:36 2015 -0800
+
+    needs to branch software version to tech version
+
+commit e55c5ee66c3e29f4f9efc01c4693693ae1b3bbeb
+Author: maurice beauxen <mauricebeauxen@gmail.com>
+Date:   Tue Feb 17 20:33:10 2015 -0800
+
+    modifying fonts into their respective folders
+
+commit 1271303d641d710bc727c88eeee64ba80ed8257f
+Author: maurice beauxen <mauricebeauxen@gmail.com>
+Date:   Mon Feb 16 20:23:18 2015 -0800
+
+    making two versions of the resume
+
+commit 24282d5d72f039c06e7330e260d3ef885005bdd6
+Author: maurice beauxen <mauricebeauxen@gmail.com>
+Date:   Mon Feb 16 20:22:48 2015 -0800
+
+    adding python code to resume library
+
+commit cdcac10ffc07bfa00ea8bb0c4eeb92966be4277b
+Author: maurice beauxen <mauricebeauxen@gmail.com>
+Date:   Sat Jan 24 20:19:40 2015 -0800
+
+    removed cv_12.tex in folder directory
+
+commit 49aea4f799b464097f1e1d19b7fa54c287e21c7b
+Author: maurice beauxen <mauricebeauxen@gmail.com>
+Date:   Sat Jan 24 20:15:08 2015 -0800
+
+    spelling: reciever -> receiver
+
+commit 56988d024d659749d97593550cd8f86327991ff2
+Author: maurice beauxen <mauricebeauxen@gmail.com>
+Date:   Sat Jan 24 20:13:37 2015 -0800
+
+    Adding PermutationAnalysis.py and dict for sample test
+
+commit 41f7c497048f8f973cb84fca3935b5f3eb404fbb
+Author: maurice beauxen <mauricebeauxen@gmail.com>
+Date:   Fri Jan 23 20:09:29 2015 -0800
+
+    edit the readme for readability.
+
+commit b1ff7d05a91b6fc49c510b195fda7427d179c9e9
+Author: MauriceBowen <mauricebeauxen@gmail.com>
+Date:   Fri Jan 23 20:08:51 2015 -0800
+
+    Create README.md
+
+commit 216283208a0da26f97a7b83de965a97c879fab3c
+Author: maurice beauxen <mauricebeauxen@gmail.com>
+Date:   Fri Jan 23 20:06:00 2015 -0800
+
+    redesigning folder stucture
+
+commit 624a6f9c71fe82e465c52d86a8f18763457cf785
+Author: maurice beauxen <mauricebeauxen@gmail.com>
+Date:   Fri Jan 23 20:01:09 2015 -0800
+
+    adding the new code sample material
+
+commit 33dbc4960c1b00dc52fef89a2c94c6afc097ac0c
+Author: maurice beauxen <mauricebeauxen@gmail.com>
+Date:   Fri Jan 23 20:00:19 2015 -0800
+
+    fixed spelling on cv_12.tex and adding extra resume goodies
+
+commit 9ddfa799a8179efff59d362f7c99e50b1998bd99
+Author: Clinton Bowen <clinton.bowen.8@gmail.com>
+Date:   Sat Dec 27 09:55:34 2014 -0800
+
+    adding changes to cv_12.tex
+
+commit 885292d0a4d56a26f2b5ae4c4e88bf6b8948e6e9
+Author: Clinton Bowen <clinton.bowen.8@gmail.com>
+Date:   Fri Dec 26 16:31:33 2014 -0800
+
+    adding new resume contact
+
+commit 6fa0add340b6aca613143687c4740216f4f71fea
+Author: Clinton Bowen <clinton.bowen.8@gmail.com>
+Date:   Mon Dec 1 17:05:09 2014 -0800
+
+    first commit!
