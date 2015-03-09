@@ -125,18 +125,21 @@ SME on FIPS 140 to 202\textbullet{} Cyber-Security Framework \textbullet{} SME o
 \item Designed a SOAP software architecture for GPS SAASM Mission Planning System
 \item Designed C\# framework, ATLAS, for internal use within the Booz Allen Hamilton Advanced Research and Development office
 \item Desgined, developed, \& tested a MATLAB Reed-Solomon error correction code library without the MATLAB Communication Toolbox
+	\begin{itemize}
+	\item Allows for arbitrary $(n,k)$ code encoded using Galois fields
+	\item Uses a Berlekamp-Welch decoding scheme
+	\end{itemize}
 \item Developed \& demonstrated a cryptographic use case using SHA-3 based algorithms in embedded C software for a PIC24HJ12GP201I Controller
 \item Built and demonstrated Zigbee 802.15.4 wireless data transfer software in C to potential business partners
 \item Designed, developed, \& tested a random number generation test suite in C\# based on NIST SP800-21
+	\begin{itemize}
+	\item Performs a bank of statistical confidence interval tests to assure randomness of data for hardware random number generators
+	\end{itemize}
 \item Developed \& tested C/C\# cryptographic (ECDSA \& SHA-2) software for a software GPS receiver 
-\item Designed, developed, \& tested message optimization software for GPS L2C and L5 signals in python
-\item Modeled, developed, \& tested message packing software for GPS C/A signal in python
-\item Corrected NIST test vectors for SHA-2 based digital signature algorithms
-\item Contributed the 'K' in SHAKE for NIST FIPS-202
-\item Designed and prototyped a cradle to grave management system for NIST compliant cryptographic keys that met NIST SP800-53 SC-12 (1) and (2)
-\item Drafted CONOPS documents for cryptographic systems
-\item Drafted command and control software operator manuals
-\item Drafted key management plans and non-standard key handling agreements for cryptography systems
+\begin{itemize}
+\item  Implemented fast galois addition over elliptical curves
+\item Tested for cryptorgraphic algorithm validity and security measures.
+\end{itemize}
 \end{tightitemize}
 \sectionspace % Some whitespace after the section
 \end{minipage}
@@ -152,7 +155,7 @@ Measure Theory\\
 Partial Differential Equations (PDEs)\\
 Regression Analysis\\
 Functional Analysis\\
-Set Topology\\
+Point Set Topology\\
 Numerical Methods for Interpolation\\
 Numerical Methods for PDEs\\
 Mathematical Modelling\\
@@ -166,7 +169,30 @@ Application Security for Developers\\and Attackers\\
 %---------LEFT COLUMN,PAGE 2---------
 %---------RIGHT COLUMN,PAGE 2---------
 \begin{minipage}[t]{0.66\textwidth}
+\runsubsection{Booz Allen Hamilton Engineering Services, LLC}
+\descript{| Technologist}
 
+\location{Continued...}
+%%%%%PAGE 2%%%%%
+\begin{tightitemize}
+\item Designed, developed, \& tested message optimization software for GPS L2C and L5 signals in python
+\begin{itemize}
+\item Designed a periodic graph which models feasible message sequences
+\item Linear inequalities were derived from the L2C and L5 constraints using the periodic graph
+\item Message sequencing results we derived using linear programming
+\end{itemize}
+\item Modeled, developed, \& tested message packing software for GPS C/A signal in python
+\begin{itemize}
+\item Software was given an a set of messages; using a bin packing problem solver implemented using linear programming, messages were packed into C/A
+\end{itemize}
+\item Corrected NIST test vectors for SHA-2 based digital signature algorithms
+\item Contributed the 'K' in SHAKE for NIST FIPS-202
+\item Designed and prototyped a cradle to grave management system for NIST compliant cryptographic keys that met NIST SP800-53 SC-12 (1) and (2)
+\item Drafted CONOPS documents for cryptographic systems
+\item Drafted command and control software operator manuals
+\item Drafted key management plans and non-standard key handling agreements for cryptography systems
+\end{tightitemize}
+\sectionspace
 \section{Research}
 \runsubsection{Lie Groups, Homogeneous Manifolds, and Complex Projective Spaces}
 \descript{| Co-Authored with Mayra Moran and Atour Bean, May 2009}
@@ -185,23 +211,38 @@ In this paper, we pose the problem of maximizing the number of special messages 
 2014	 & What the Heck is Fuzz-Testing?\\
 2014	 & BlackHat, DEFCON, SHA-3, \& DIAC: The Summer Conferences\\
 2014	 & Configuration Management within Booz Allen Hamilton \\
-		 & and an Introduction to C\# Phalanx\\
+		 & and an Introduction to C\# ATLAS\\
 2014  	 & Message Optimization over L2C and L5\\
 2013 	 & Error Correction Codes over Finite Fields \\
 2012 	 & Mission Planning Optimization \\
 2010 	 & Reed Solomon Error Correction Codes\\
 \end{tightTabularPresentations}
 
-\sectionspace
+\end{minipage}
+%---------RIGHT COLUMN,PAGE 2---------
+\newpage
+%---------LEFT COLUMN,PAGE 3---------
+\begin{minipage}[t]{0.33\textwidth}
+\hspace{0.33\textwidth}
+\end{minipage}
+%---------LEFT COLUMN,PAGE 3---------
+%---------RIGHT COLUMN,PAGE 3---------
+\begin{minipage}[t]{0.66\textwidth}
+
 \section{Miscellaneous Software Development}
 \runsubsection{Software Development in Academia}
 \location{August 2007 – May 2014 | Cal State Northidge}
+\vspace{\topsep}
 \begin{tightitemize}
 \item Developed a python script to generate random trees using Markov chains
 \item Developed R scripts to perform multiregression analysis (ANOVA, $R^2$, principle component analysis)  on car data to model miles per gallon
 \item Developed R scripts for bootstapping limited samples to develop statistical tests over the sampling distribution
+%%%%%Page 3%%%%%
 \item Developed a MATLAB application which was able to identify individuals from their voice using partial differential equations
-\item Used C++ OpenCV to identify text in arabic and english from a digital images.  Application was used for an unmanned air vehicle project
+\item Used C++ OpenCV to identify text in Arabic and English from a digital images.  Application was used for an unmanned air vehicle project
+\begin{itemize}
+\item Used Canny algorithm, splines, and Hausdorff distance measurements to estimate characters in Arabic and English
+\end{itemize}
 \item Developed a python application to optimize resource scheduling management software using evolution algorithms
 \item Modeled Joukowski air foils (aircraft wing lift) as a system of partial differential equations in Mathematica
 \item Modeled growth and decay of animal and bacteria populations as a system of partial differential equations in Mathematica
