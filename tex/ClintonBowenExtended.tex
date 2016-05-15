@@ -35,7 +35,7 @@
 \subsection{Cal State Northridge}
 
 \descript{Masters in Applied Mathematics}
-\location{Expected May 2015}
+\location{Expected May 2016}
 
 \sectionspace % Some whitespace after the section
 
@@ -83,7 +83,7 @@ MiniFuzz\\
 \subsection{Development Operations}
 IC-Agile Certified Professional\\
 Secure Development Lifecycle Practitioner\\
-Top Secret SCI Active (No FSP)\\
+DOD Secret Clearance\\
 \sectionspace % Some whitespace after the section
 \section{Skills}
 \subsection{System Engineering}
@@ -91,17 +91,48 @@ Top Secret SCI Active (No FSP)\\
 Subject Matter Expert (SME) on C/A and CNAV
 \subsection{Cryptography + Cyber-Sec}
 \location{Engineering Standards}
-SME on FIPS 140 to 202\textbullet{} Cyber-Security Framework \textbullet{} SME on Special Publications 800 Series \textbullet{} RFCs \textbullet{} CNSSPs \textbullet{} DODAF\\
+SME on FIPS 140 to 202 \textbullet{} Cyber-Security Framework \textbullet{} SME on Special Publications 800 Series \textbullet{} RFCs \textbullet{} CNSSPs \textbullet{} DODAF\\
 \end{minipage}
 %---------LEFT COLUMN,PAGE 1---------
 %---------RIGHT COLUMN,PAGE 1---------
 \begin{minipage}[t]{0.66\textwidth}
 \section{Experience}
 
+\runsubsection{The MITRE Corporation}
+\descript{| Senior Cybersecurity Engineer}
+
+\location{April 2015 – Present | El Segundo, CA}
+\vspace{\topsep} 
+\begin{tightitemize}
+\item Static Analysis Continuous Integration Platform
+	\begin{itemize}
+		\item Currently developing a KLEE symbolic execution plugin for Jenkin CI (Java, Python, C)
+		\item Extending plugin development for Summer 2016 to build multiple plugins for free open source static analysis tools
+	\end{itemize}
+\item Cyber Command and Control System Software Development
+	\begin{itemize}
+		\item Continuing the ongoing development of an operational and infrastucture analysis tool (Ruby, SQL)
+	\end{itemize}
+\item Source Code Vulnerability Review for GPS
+	\begin{itemize}
+		\item Provided security assessment to military user equipment C source code with Fortify
+		\item Provided security assessment to radionavigation software  C source code with Fortify
+		\item Performed a FOSS analysis on two military user equipment code bases with Palamida
+	\end{itemize}
+\item System engineering consulting on the modernization effort AEP Ground Segment
+	\begin{itemize}
+		\item Gathering technical assessments from various organizations to perform data exchanges via AEP
+	\end{itemize}
+\item Consulting on Key Management Concept of Operations for OCX Ground Segment
+	\begin{itemize}
+		\item Providing guidance to sponsor and contract for NSA Type 1 cryptographic key management
+	\end{itemize}
+%\item Developing a Jenkins CI plugin for KLEE, symbolic execution tool that runs at compile time to identify bugs and errors in deterministic LLVM v3.4 software.
+\end{tightitemize}
 \runsubsection{Booz Allen Hamilton Engineering Services, LLC}
 \descript{| Technologist}
 
-\location{June 2010 – Present | El Segundo, CA}
+\location{June 2010 – April 2015 | El Segundo, CA}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightitemize}
 \item Directing weekly technical meetings between a team of software developers and clients for project management
@@ -116,30 +147,22 @@ SME on FIPS 140 to 202\textbullet{} Cyber-Security Framework \textbullet{} SME o
 	\item Issue tasks for interns
 	\item Provide guidance for completion of tasks
 	\end{itemize}
-\item Provided cryptographic analysis for a GPS CNAV project
-	\begin{itemize}
-	\item Identified feasible cryptographic solutions
-	\item Assisted in drafting a cryptographic protocol for authentication of associated data and high level overview of key management
-	\item Consulted and developed software for prototyping the cryptographic concept
-	\end{itemize}
-\item Designed a SOAP software architecture for GPS SAASM Mission Planning System
-\item Designed C\# framework, ATLAS, for internal use within the Booz Allen Hamilton Advanced Research and Development office
-\item Desgined, developed, \& tested a MATLAB Reed-Solomon error correction code library without the MATLAB Communication Toolbox
-	\begin{itemize}
-	\item Allows for arbitrary $(n,k)$ code encoded using Galois fields
-	\item Uses a Berlekamp-Welch decoding scheme
-	\end{itemize}
-\item Developed \& demonstrated a cryptographic use case using SHA-3 based algorithms in embedded C software for a PIC24HJ12GP201I Controller
-\item Built and demonstrated Zigbee 802.15.4 wireless data transfer software in C to potential business partners
-\item Designed, developed, \& tested a random number generation test suite in C\# based on NIST SP800-21
-	\begin{itemize}
-	\item Performs a bank of statistical confidence interval tests to assure randomness of data for hardware random number generators
-	\end{itemize}
-\item Developed \& tested C/C\# cryptographic (ECDSA \& SHA-2) software for a software GPS receiver 
-\begin{itemize}
-\item  Implemented fast galois addition over elliptical curves
-\item Tested for cryptorgraphic algorithm validity and security measures.
-\end{itemize}
+% \item Desgined, developed, \& tested a MATLAB Reed-Solomon error correction code library without the MATLAB Communication Toolbox
+% 	\begin{itemize}
+% 	\item Allows for arbitrary $(n,k)$ code encoded using Galois fields
+% 	\item Uses a Berlekamp-Welch decoding scheme
+% 	\end{itemize}
+% \item Developed \& demonstrated a cryptographic use case using SHA-3 based algorithms in embedded C software for a PIC24HJ12GP201I Controller
+% \item Built and demonstrated Zigbee 802.15.4 wireless data transfer software in C to potential business partners
+% \item Designed, developed, \& tested a random number generation test suite in C\# based on NIST SP800-21
+% 	\begin{itemize}
+% 	\item Performs a bank of statistical confidence interval tests to assure randomness of data for hardware random number generators
+% 	\end{itemize}
+% \item Developed \& tested C/C\# cryptographic (ECDSA \& SHA-2) software for a software GPS receiver 
+% \begin{itemize}
+% \item  Implemented fast galois addition over elliptical curves
+% \item Tested for cryptorgraphic algorithm validity and security measures.
+%\end{itemize}
 \end{tightitemize}
 \sectionspace % Some whitespace after the section
 \end{minipage}
@@ -165,6 +188,10 @@ Linear and Discrete Optimization\\
 \subsection{Black Hat 2014}
 C and C++ Source Code Auditing\\
 Application Security for Developers\\and Attackers\\
+\subsection{IACR}
+Workshop on EasyCrypt (2015)\\
+School on Securing Cryptographic Alogrithms and Devices (2015)\\
+Real World Crypto (2016)
 \end{minipage}
 %---------LEFT COLUMN,PAGE 2---------
 %---------RIGHT COLUMN,PAGE 2---------
@@ -175,6 +202,30 @@ Application Security for Developers\\and Attackers\\
 \location{Continued...}
 %%%%%PAGE 2%%%%%
 \begin{tightitemize}
+\item Provided cryptographic analysis for a GPS CNAV project
+	\begin{itemize}
+	\item Identified feasible cryptographic solutions
+	\item Assisted in drafting a cryptographic protocol for authentication of associated data and high level overview of key management
+	\item Consulted and developed software for prototyping the cryptographic concept
+	\end{itemize}
+\item Designed a SOAP software architecture for GPS SAASM Mission Planning System
+\item Designed C\# framework, ATLAS, for internal use within the Booz Allen Hamilton Advanced Research and Development office
+\item Desgined, developed, \& tested a MATLAB Reed-Solomon error correction code library without the MATLAB Communication Toolbox
+	\begin{itemize}
+	\item Allows for arbitrary $(n,k)$ code encoded using Galois fields
+	\item Uses a Berlekamp-Welch decoding scheme
+	\end{itemize}
+\item Developed \& demonstrated a cryptographic use case using SHA-3 based algorithms in embedded C software for a PIC24HJ12GP201I Controller
+\item Built and demonstrated Zigbee 802.15.4 wireless data transfer software in C to potential business partners
+\item Designed, developed, \& tested a random number generation test suite in C\# based on NIST SP800-21
+	\begin{itemize}
+	\item Performs a bank of statistical confidence interval tests to assure randomness of data for hardware random number generators
+	\end{itemize}
+\item Developed \& tested C/C\# cryptographic (ECDSA \& SHA-2) software for a software GPS receiver 
+\begin{itemize}
+\item  Implemented fast galois addition over elliptical curves
+\item Tested for cryptorgraphic algorithm validity and security measures.
+\end{itemize}
 \item Designed, developed, \& tested message optimization software for GPS L2C and L5 signals in python
 \begin{itemize}
 \item Designed a periodic graph which models feasible message sequences
@@ -193,18 +244,31 @@ Application Security for Developers\\and Attackers\\
 \item Drafted key management plans and non-standard key handling agreements for cryptography systems
 \end{tightitemize}
 \sectionspace
+
+
+
+
+\end{minipage}
+%---------RIGHT COLUMN,PAGE 2---------
+\newpage
+%---------LEFT COLUMN,PAGE 3---------
+\begin{minipage}[t]{0.33\textwidth}
+\hspace{0.33\textwidth}
+\end{minipage}
+%---------LEFT COLUMN,PAGE 3---------
+%---------RIGHT COLUMN,PAGE 3---------
+\begin{minipage}[t]{0.66\textwidth}
 \section{Research}
+\runsubsection{Realization of Simply Connected Polygonal Linkages and Recognition of Unit Disk Contact Trees}
+\descript{|Springer Verlag, Lecture Notes in Computer Science, September 2015}
 \runsubsection{Lie Groups, Homogeneous Manifolds, and Complex Projective Spaces}
 \descript{| Co-Authored with Mayra Moran and Atour Bean, May 2009}
 Partially funded by NSF Grant DMS-0502258
-
-\runsubsection{Message Optimization Over GPS Civil Navigation Signals}
-\descript{| Submitting to ION GNSS+ 2015}
-\begin{myframedenv}
-In this paper, we pose the problem of maximizing the number of special messages allowed while observing the messaging constraints defined in IS-200 and IS-705 for the GPS signals L2C and L5.  The problem is posed using a graph of feasible message sequencing and then modelling the graphs as linear constraints for a linear programming (LP) problem.
-\end{myframedenv}
-\runsubsection{Realizations of Simply Connected Polygonal Linkages}
-\descript{| To appear in Springer Verlag, Lecture Notes in Computer Science, September 2015}
+% \runsubsection{Message Optimization Over GPS Civil Navigation Signals}
+% \descript{| Submitting to ION GNSS+ 2015}
+% \begin{myframedenv}
+% In this paper, we pose the problem of maximizing the number of special messages allowed while observing the messaging constraints defined in IS-200 and IS-705 for the GPS signals L2C and L5.  The problem is posed using a graph of feasible message sequencing and then modelling the graphs as linear constraints for a linear programming (LP) problem.
+% \end{myframedenv}
 \sectionspace
 \section{Presentations} 
 \begin{tightTabularPresentations}
@@ -219,18 +283,7 @@ In this paper, we pose the problem of maximizing the number of special messages 
 2012 	 & Mission Planning Optimization \\
 2010 	 & Reed Solomon Error Correction Codes\\
 \end{tightTabularPresentations}
-
-\end{minipage}
-%---------RIGHT COLUMN,PAGE 2---------
-\newpage
-%---------LEFT COLUMN,PAGE 3---------
-\begin{minipage}[t]{0.33\textwidth}
-\hspace{0.33\textwidth}
-\end{minipage}
-%---------LEFT COLUMN,PAGE 3---------
-%---------RIGHT COLUMN,PAGE 3---------
-\begin{minipage}[t]{0.66\textwidth}
-
+\sectionspace
 \section{Miscellaneous Software Development}
 \runsubsection{Software Development in Academia}
 \location{August 2007 – May 2014 | Cal State Northidge}
@@ -246,7 +299,7 @@ In this paper, we pose the problem of maximizing the number of special messages 
 \item Used Canny algorithm, splines, and Hausdorff distance measurements to estimate characters in Arabic and English
 \end{itemize}
 \item Developed a python application to optimize resource scheduling management software using evolution algorithms
-\item Modeled Joukowski air foils (aircraft wing lift) as a system of partial differential equations in Mathematica
+\item Modeled Joukowski air foils (aircraft wing and lift) as a system of partial differential equations in Mathematica
 \item Modeled growth and decay of animal and bacteria populations as a system of partial differential equations in Mathematica
 \end{tightitemize}
 \vspace{\topsep}
