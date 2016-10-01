@@ -1,0 +1,4 @@
+#/usr/bin/bash
+xelatex --output-directory ../doc ClintonBowenExtended.tex
+xelatex --output-directory ../doc ClintonBowenExtended.tex
+
