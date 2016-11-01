@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.11.10)  31 OCT 2016 21:06
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.11.10)  31 OCT 2016 21:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1376,72 +1376,72 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 59.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 130.
+ mdframed uses option nobreak mdframed on input line 140.
 
-Underfull \hbox (badness 3118) in paragraph at lines 142--143
+Underfull \hbox (badness 3118) in paragraph at lines 152--153
 []\EU1/Lato-Lig(0)/m/sc/10 Prioritize software development tasks for software d
 evelopment
  []
 
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 165.
+ mdframed uses option nobreak mdframed on input line 175.
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 174--183
+Underfull \hbox (badness 10000) in paragraph at lines 184--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--193
+Underfull \hbox (badness 10000) in paragraph at lines 201--203
 
  []
 
 
-Underfull \hbox (badness 2384) in paragraph at lines 194--199
+Underfull \hbox (badness 2384) in paragraph at lines 204--209
 \EU1/Lato-Lig(0)/m/sc/10 School on Securing Cryptographic Algo-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--199
+Underfull \hbox (badness 10000) in paragraph at lines 204--209
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--207
+Underfull \hbox (badness 10000) in paragraph at lines 211--217
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--211
+Underfull \hbox (badness 10000) in paragraph at lines 218--221
 
  []
 
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 261.
+ mdframed uses option nobreak mdframed on input line 271.
 [2]
-Overfull \hbox (7.02637pt too wide) in paragraph at lines 290--302
+Overfull \hbox (7.02637pt too wide) in paragraph at lines 300--312
 [][] 
  []
 
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 302.
+ mdframed uses option nobreak mdframed on input line 312.
 
-Underfull \hbox (badness 1675) in paragraph at lines 316--317
+Underfull \hbox (badness 1675) in paragraph at lines 326--327
 []\EU1/Lato-Lig(0)/m/sc/10 Used Canny algorithm, splines, and Hausdorff distanc
 e measure-
  []
 
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 321.
+ mdframed uses option nobreak mdframed on input line 331.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 333.
+ mdframed uses option nobreak mdframed on input line 343.
 [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 336.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 336.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 346.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 346.
  (../doc/ClintonBowenExtended.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 336.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 336.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 346.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 346.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1450,7 +1450,7 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 336.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 346.
  ) 
 Here is how much of TeX's memory you used:
  32683 strings out of 493706
