@@ -19,11 +19,11 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass{deedy-resume} % Use US Letter paper, change to a4paper for A4 
+\documentclass{clinton-resume} % Use US Letter paper, change to a4paper for A4 
 \usepackage{fontawesome}
 \usepackage{tikz}
-\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
-            \node[shape=circle,draw,inner sep=2pt,red] (char) {#1};}}
+%\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+%            \node[shape=circle,draw,inner sep=2pt,red] (char) {#1};}}
 
 \begin{document}
 
@@ -53,7 +53,7 @@
 \subsection{Cal State Northridge}
 
 \descript{Masters in Applied Mathematics}
-\location{Expected May 2015}
+\location{December 2016}
 
 \sectionspace % Some whitespace after the section
 
@@ -92,17 +92,17 @@
 
 \subsection{Languages}
 
-C\\
-C++\\
+% C\\
+% C++\\
 C\#\\
-Java\\
+% Java\\
 \LaTeX\\
-Mathematica\\
-Matlab\\
+% Mathematica\\
+% Matlab\\
 Python\\
 SQL (MySQL, PostgreSQL, SQLite)\\
-%PHP\\
-R\\
+% PHP\\
+% R\\
 
 
 
@@ -112,22 +112,24 @@ R\\
 
 \subsection{Libraries, APIs, and Frameworks}
 
-.NET\\
+
 Sage Python\\
-SciPy\\
-RSA BSAFE\\
-Gurobi\\
+.NET\\
+% Xamarin\\
+% SciPy\\
+% RSA BSAFE\\
+% Gurobi\\
 CPLEX\\
-Django (and GeoDjango)\\
-PeachFuzz\\
-MiniFuzz\\
-\subsection{Development Operations}
+Django\\
+% PeachFuzz\\
+% MiniFuzz\\
+% \subsection{Development Operations}
 
-IC-Agile Certified Professional\\
-Secure Development Lifecycle Practitioner\\
-Top Secret SCI Active (No FSP)\\
+% IC-Agile Certified Professional\\
+% Secure Development Lifecycle Practitioner\\
+% Top Secret SCI Active (No FSP)\\
 
-\sectionspace % Some whitespace after the section
+% \sectionspace % Some whitespace after the section
 
 %------------------------------------------------
 % Skills
@@ -142,7 +144,7 @@ Subject Matter Expert (SME) on C/A \textbullet{} SME on CNAV
 \sectionspace % Some whitespace after the section
 \subsection{Cryptography + Cyber-Sec}
 \location{Engineering Standards}
-SME on FIPS 140 to 202\textbullet{} Cyber-Security Framework \textbullet{} SME on Special Publications 800 Series \textbullet{} RFCs \textbullet{} CNSSPs \\
+SME on FIPS 140 to 202\textbullet{} Cyber-Security Framework \textbullet{} SME on Special Publications 800 Series \textbullet{} CNSSPs \\
 
 \sectionspace % Some whitespace after the section
 
@@ -166,19 +168,20 @@ SME on FIPS 140 to 202\textbullet{} Cyber-Security Framework \textbullet{} SME o
 \runsubsection{Booz Allen Hamilton Engineering Services, LLC}
 \descript{| Technologist}
 
-\location{June 2010 – Present | El Segundo, CA}
+\location{June 2010 – April 2015 | El Segundo, CA}
+\location{August 2016 – December 2016 | El Segundo, CA}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightitemize}
-\item Designed a SOAP software architecture for GPS SAASM Mission Planning System
+% \item Designed a SOAP software architecture for GPS SAASM Mission Planning System
 \item Desgined, developed, \& tested a MATLAB Reed-Solomon error correction code library
 \item Developed \& demonstrated SHA-3 based embedded C software for a PIC24HJ12GP201I Controller
 \item Built and demonstrated Zigbee 802.15.4 wireless data transfer software in C to potential business partners
 \item Designed, developed, \& tested a random number generation test suite in C\#
-\item Developed \& tested cryptographic software for a C/C\# based GPS receiver (ECDSA \& SHA-2)
+% \item Developed \& tested cryptographic software for a C/C\# based GPS receiver (ECDSA \& SHA-2)
 \item Designed, developed, \& tested message optimization software for GPS L2C and L5 signals in python
 \item Directing weekly technical meetings between a team of software developers and clients for project management
-% \item Corrected NIST test vectors for SHA-2 based digital signature algorithms.
-% \item Contributed the 'K' in SHAKE for NIST FIPS-202.
+\item Corrected NIST test vectors for SHA-2 based digital signature algorithms.
+\item Contributed the 'K' in SHAKE for NIST FIPS-202.
 % \item Directing weekly technical meetings between a team of software developers and clients for project management.
 % \item Provided cryptographic analysis for a GPS CNAV project.
 % \begin{tightitemize}
@@ -228,46 +231,115 @@ SME on FIPS 140 to 202\textbullet{} Cyber-Security Framework \textbullet{} SME o
 \sectionspace % Some whitespace after the section
 
 %------------------------------------------------
-% Research
+% MITRE
 %------------------------------------------------
+\runsubsection{The MITRE Corporation}
+\descript{| Senior Cybersecurity Engineer}
 
-\section{Research}
+\location{April 2015 – July 2016 | El Segundo, CA}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightitemize}
+    % \item Launch, Tracking, and Range Safety (LTRS) Cyber Security Assessment
+    %     \begin{itemize}
+    %         \item Developed the RMF-based cyber security technical requirements for the next generation launch platform based primarily out of the Cape Canaveral for launching spacecraft
+    %     \end{itemize}
+    \item Static Analysis Continuous Integration Platform
+        \begin{itemize}
+            \item Worked on a KLEE symbolic execution plugin for Jenkins Continuous Integration tool
+            \item Provided guidance on JavaPathfinder symbolic execution plugin for Jenkins Continuous Integration tool
+        \end{itemize}
+    % \item Cyber Command and Control System Software Development
+    %     \begin{itemize}
+    %         \item  Developed and analyzed potential functional failure of Air Force cyber operations from an infrastructure model of Air Force equipment
+    %     \end{itemize}
+    \item Source Code Vulnerability Review for GPS
+        \begin{itemize}
+            \item Provided security assessment to military user equipment and radionavigation software C source code with Fortify
+            \item Performed a FOSS analysis on two military user equipment code bases with Palamida
+        \end{itemize}
+    \item Consulting on Key Management Concept of Operations for OCX Ground Segment
+        
+\end{tightitemize}
 
-\runsubsection{Lie Groups, Homogeneous Manifolds, and Complex Projective Spaces}
-\descript{| Co-Authored with Mayra Moran and Atour Bean}
+% % %------------------------------------------------
+% % % Clover
+% % %------------------------------------------------
 
-\location{May 2009}
-Partially funded by NSF Grant DMS-0502258
+\runsubsection{Clover Health, LLC}
+\descript{| Security Engineer}
 
-\sectionspace % Some whitespace after the section
+\location{December 2016 – Present | San Francisco, CA}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightitemize}
+\item Demonstrated and evaluated usage of Hashicorp Vault secert management service for Clover Engineering with Okta SSO Service. 
+\item Collaborating on effort to explore how to incorporate Kubernetes as our container management system for deployments.
+\item Guiding software development teams data security practices in AWS RDS, S3, and Google Cloud buckets. 
+    \begin{itemize} 
+        \item Conducts code review and coding practice assessments to identify software development risks.
+    \end{itemize}
+\item Contributor to the security vendor management program.
+\item Maintained NGINX server on Google Cloud for during medicare annual enrollment period for Clover's marketing campaigns.
+\item Manages security monitoring tools on endpoing devices and cloud instances.
+% \item Directing weekly technical meetings between a team of software developers and clients for project management.
+% \item Provided cryptographic analysis for a GPS CNAV project.
+% \begin{tightitemize}
+% \item Identified feasible solutions
+% \item Assisted in drafting a cryptographic protocol and high level overview of key management
+% \item Consulted and developed software for prototyping the cryptographic concept
+% \end{tightitemize}
+% \item Designed and prototyped a cradle to grave management system for NIST compliant cryptographic keys that met NIST SP800-53 SC-12 (1) and (2).
+% \sectionspace
+% \runsubsection{Cal State Northridge}
+% \descript{| Student}
 
-%------------------------------------------------
+% \location{August 2012 – June 2014 | Northridge, CA}
+% \item Developed reproducing kernel hilbert space interpolation software in python for approximating solutions to stochastic differential equations
+% \item Designed \& developed resource allocation optimization software in python
+\end{tightitemize}
 
-\runsubsection{Message Optimization Over GPS Civil Navigation Signals}
-\descript{| Submitting to ION GNSS+ 2015}
 
-\location{2015}
-In this paper, we pose the problem of maximizing the number of special messages allowed while observing the messaging constraints defined in IS-200 and IS-705 for the GPS signals L2C and L5.  The problem is posed using a graph of feasible message sequencing and then modelling the graphs as linear constraints for a linear programming (LP) problem.
-\sectionspace % Some whitespace after the section
+
+
+
+
+
+% \section{Research}
+
+% \runsubsection{Lie Groups, Homogeneous Manifolds, and Complex Projective Spaces}
+% \descript{| Co-Authored with Mayra Moran and Atour Bean}
+
+% \location{May 2009}
+% Partially funded by NSF Grant DMS-0502258
+
+% \sectionspace % Some whitespace after the section
 
 % %------------------------------------------------
-% % Presentations
-% %------------------------------------------------
 
-\section{Presentations} 
+% \runsubsection{Message Optimization Over GPS Civil Navigation Signals}
+% \descript{| Submitting to ION GNSS+ 2015}
 
-\begin{tabular}{rl}
-2014     & Permutation and Construction Library: \\
-		 &A Library for Permutation Based Cryptography\\
-2014	 & What the Heck is Fuzz-Testing?\\
-2014	 & BlackHat, DEFCON, SHA-3, \& DIAC: The Summer Conferences\\
-2014	 & Configuration Management within Booz Allen Hamilton \\
-		 & and an Introduction to C\# ATLAS\\
-2014  	 & Message Optimization over L2C and L5\\
-2013 	 & Error Correction Codes over Finite Fields \\
-2012 	 & Mission Planning Optimization \\
-2010 	 & Reed Solomon Error Correction Codes\\
-\end{tabular}
+% \location{2015}
+% In this paper, we pose the problem of maximizing the number of special messages allowed while observing the messaging constraints defined in IS-200 and IS-705 for the GPS signals L2C and L5.  The problem is posed using a graph of feasible message sequencing and then modelling the graphs as linear constraints for a linear programming (LP) problem.
+% \sectionspace % Some whitespace after the section
+
+% % %------------------------------------------------
+% % % Presentations
+% % %------------------------------------------------
+
+% \section{Presentations} 
+
+% \begin{tabular}{rl}
+% 2014     & Permutation and Construction Library: \\
+% 		 &A Library for Permutation Based Cryptography\\
+% 2014	 & What the Heck is Fuzz-Testing?\\
+% 2014	 & BlackHat, DEFCON, SHA-3, \& DIAC: The Summer Conferences\\
+% 2014	 & Configuration Management within Booz Allen Hamilton \\
+% 		 & and an Introduction to C\# ATLAS\\
+% 2014  	 & Message Optimization over L2C and L5\\
+% 2013 	 & Error Correction Codes over Finite Fields \\
+% 2012 	 & Mission Planning Optimization \\
+% 2010 	 & Reed Solomon Error Correction Codes\\
+% \end{tabular}
 
 % \sectionspace % Some whitespace after the section
 

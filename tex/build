@@ -1,6 +1,6 @@
 #usr/bin/bash
-xelatex --output-directory ../doc ClintonBowenExtended.tex
-xelatex --output-directory ../doc ClintonBowenExtended.tex
-pdflatex --output-directory ../doc HPCoverLetter.tex
-pdflatex --output-directory ../doc PaypalCoverLetter.tex
-pdflatex --output-directory ../doc NetflixCoverLetter.tex
+xelatex --output-directory ../doc ClintonBowenSoftware.tex
+xelatex --output-directory ../doc ClintonBowenSoftware.tex
+#pdflatex --output-directory ../doc HPCoverLetter.tex
+#pdflatex --output-directory ../doc PaypalCoverLetter.tex
+#pdflatex --output-directory ../doc NetflixCoverLetter.tex
